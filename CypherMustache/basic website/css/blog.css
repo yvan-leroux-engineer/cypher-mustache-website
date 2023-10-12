@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+
+body, html {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.blog-section {
+    width: 70%;
+    height: 100vh;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+hr {
+    margin: 20px;
+}
+
+.welcome{
+    margin: 0 3em 3em 3em;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* This replaces the margin to create spacing between grid items */
+    margin: 2em;
+}
+
+.article-tile {
+    height: 200px;  /* Adjust as needed */
+    cursor: pointer;
+    border: 1px solid black;  /* Border for each tile */
+    position: relative; 
+}
+
+.article-tile img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; /* Ensure the image fits correctly */
+}
+
+.article-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: white;  /* Text color white */
+    text-align: center;
+    padding: 5px 0;
+}
+
+.article-view {
+    display: none;
+    overflow: auto;
+}
+
+.arrow {
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Test couleurs */
+
+/* .color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #ccc; 
+    position: relative;
+}
+
+.color-box:before {
+    content: attr(style);
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+} */

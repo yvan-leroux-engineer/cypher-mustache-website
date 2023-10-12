@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/blog.css">
+    <link rel="stylesheet" href="./css/chat.css">
+    <title>Cypher Mustache</title>
+</head>
+
+<body>
+    <!-- Blog Section -->
+    <div class="blog-section">
+        <h1>Welcome to the Cypher Mustache's blog !</h1>
+        <p class="welcome">I'm absolutely delighted to welcome you to my little corner of the internet, where I share my passion for the entire
+        data ecosystem, including Data Science, Data Analytics, and Data Engineering. 💻📈 <br><br>
+        
+        To me, writing this blog is more than just sharing knowledge; it's about the profound transformation that comes with it.
+        When we put our thoughts into words, we not only solidify our understanding but also open doors to new ideas and
+        connections. It's a fundamental way to evolve and become a better version of ourselves. 🌱 <br><br>
+        
+        In these virtual pages, we'll dive into the world of data, exploring the intricate chain of value that starts with raw
+        data and culminates in actionable insights. But beyond that, I hope to inspire you to embark on your own journey of
+        self-discovery through blogging. It's an incredible way to clarify your thoughts, connect with like-minded souls, and
+        leave a digital legacy for others to learn from. 🌟 <br><br>
+        
+        So, thank you for joining me on this adventure. I can't wait to explore the realms of Data Science, Data Analytics, and
+        Data Engineering together and to discover the transformative power of writing down our experiences. Let's learn, grow,
+        and share together!</p>
+        <hr>
+        <!-- <div class="color-palette">
+            <div class="color-box" style="background-color: #000000;"></div>
+            <div class="color-box" style="background-color: #FBF5E3;"></div>
+            <div class="color-box" style="background-color: #A22823;"></div>
+            <div class="color-box" style="background-color: #C5A15A;"></div>
+            <div class="color-box" style="background-color: #3C4F6D;"></div>
+        </div> -->
+        <div class="article-grid" id="articles"></div>
+        <div class="article-view" id="articleView">
+            <div class="arrow arrow-top">↑</div>
+            <div id="articleContent"></div>
+            <div class="arrow arrow-bottom">↓</div>
+        </div>
+    </div>
+
+    <!-- Chat Section -->
+    <div class="chat-section">
+        <div class="chat-box">
+            <div class="messages" id="messages"></div>
+            <div class="input-box">
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendButton" class="send-button">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/blog.js"></script>
+    <script src="./js/chat.js"></script>
+</body>
+
+</html>

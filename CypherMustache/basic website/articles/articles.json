@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Article 1 Title",
+    "date": "2023-10-01",
+    "image": "article1.jpg",
+    "content": "Path to article1.md"
+  },
+  {
+    "title": "Article 2 Title",
+    "date": "2023-09-15",
+    "image": "article2.jpg",
+    "content": "Path to article2.md"
+  }
+]
